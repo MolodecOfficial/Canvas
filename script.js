@@ -9,7 +9,7 @@ function newFigures() {
     hexRectangleHeight, 
     hexRectangleWidth,
     hexagonAngle = 0.523598776, // 30 градусов в радианах
-    sideLength = 30, // длина стороны, пискелов
+    sideLength = 30, // длина стороны, пискели
     boardWidth = 51, // ширина "доски" по вертикали
     boardHeight = 20; // высота "доски" по вертикали
    
@@ -22,7 +22,7 @@ function newFigures() {
     
     if (canvas.getContext) {
         var ctx = canvas.getContext("2d")
-        ctx.fillStyle = "#009000", '#00d7ff';
+        ctx.fillStyle = "#009000";
         ctx.strokeStyle = '#d1d1d147';
         ctx.lineWidth = 3;
         drawBoard(ctx, boardWidth, boardHeight); // первичная отрисовка
